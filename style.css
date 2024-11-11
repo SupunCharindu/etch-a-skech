@@ -20,17 +20,18 @@ header {
 .container {
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width:500px;
     height: 500px;
     margin: 0 auto;
     border: 1px solid black;
 }
 
 .square {
-    width: 25px;
-    height: 25px;
+    width: 100%;
+    
     border: 1px solid #ddd;
     box-sizing: border-box;
+    margin: 0;
 }
 
 .buttons {
